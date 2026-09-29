@@ -4,14 +4,10 @@
   <img alt="Par Bahrae, software developer. Forecasting and quant tools, benchmarked and tested. Python projects in time-series forecasting, portfolio and credit-risk modeling, and the dashboards that explain them." src="assets/header-dark.svg" width="100%">
 </picture>
 
-<!--
-PORTFOLIO LINK
-When the portfolio site URL is final, delete this comment and paste the link below it:
-
+<!-- Portfolio goes live at this URL once ParBproject/ParBproject.github.io merges. -->
 <p align="center">
-  <a href="https://REPLACE_WITH_PORTFOLIO_URL"><b>Portfolio</b></a>
+  <a href="https://parbproject.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-10B981?style=flat-square&labelColor=111827"></a>
 </p>
--->
 
 <p align="center">
   Software developer building practical tools in Python, C/C++, SQL, and AI.<br>
