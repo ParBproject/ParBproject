@@ -4,9 +4,9 @@
   <img alt="Par Bahrae, software developer. Forecasting and quant tools, benchmarked and tested. Python projects in time-series forecasting, portfolio and credit-risk modeling, and the dashboards that explain them." src="assets/header-dark.svg" width="100%">
 </picture>
 
-<!-- Portfolio goes live at this URL once ParBproject/ParBproject.github.io merges. -->
 <p align="center">
   <a href="https://parbproject.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-10B981?style=flat-square&labelColor=111827"></a>
+  <a href="https://www.linkedin.com/in/parbahrae/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-10B981?style=flat-square&logo=linkedin&logoColor=white&labelColor=111827"></a>
 </p>
 
 <p align="center">
@@ -15,25 +15,30 @@
   Forecasts and portfolio models are checked against naïve baselines or simple benchmarks. Featured repositories run in GitHub Actions.
 </p>
 
+<p align="center">Open to data analyst, quant, forecasting or software roles · Toronto</p>
+
 ## Featured projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/ParBproject/commodity-price-forecaster"><img src="assets/icons/forecast.svg" width="28" height="28" alt=""><br><b>Commodity Price Forecaster</b></a><br><br>
-      Energy, metals, and agriculture forecasts with ARIMA/SARIMAX and Prophet, rolling-origin validation against naïve baselines, and a Streamlit dashboard.<br><br>
+      Energy, metals, and agriculture forecasts with ARIMA/SARIMAX and Prophet, rolling-origin validation against naïve baselines, and a Streamlit dashboard.<br>
+      Rolling-origin, one-step checks against last-value, drift, and a 52-week seasonal-naïve baseline.<br><br>
       <code>Python</code> <code>Streamlit</code> <code>Prophet</code>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/ParBproject/Advanced-Financial-Models"><img src="assets/icons/models.svg" width="28" height="28" alt=""><br><b>Advanced Financial Models</b></a><br><br>
-      Excel workbook plus a tested Python package for cash-flow forecasts, credit expected loss, portfolio risk, and stress tests, with a Streamlit decision dashboard.<br><br>
+      Excel workbook plus a tested Python package for cash-flow forecasts, credit expected loss, portfolio risk, and stress tests, with a Streamlit decision dashboard.<br>
+      Regression tests pin a credit example: $100,000 exposure × 15% PD × 45% LGD = $6,750 expected loss.<br><br>
       <code>Python</code> <code>Excel</code> <code>Streamlit</code>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/ParBproject/stock-price-predictor"><img src="assets/icons/series.svg" width="28" height="28" alt=""><br><b>Stock Price Predictor</b></a><br><br>
-      Next-day stock forecasts with LSTM and Random Forest, leakage-safe evaluation, Backtrader backtests, and GitHub Actions CI.<br><br>
+      Next-day stock forecasts with LSTM and Random Forest, leakage-safe evaluation, Backtrader backtests, and GitHub Actions CI.<br>
+      Benchmarked against a naïve persistence baseline, with a leakage-safe evaluation.<br><br>
       <code>Python</code> <code>TensorFlow</code> <code>Backtrader</code>
     </td>
     <td width="50%" valign="top">
@@ -50,13 +55,20 @@
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/ParBproject/skycast"><img src="assets/icons/skycast.svg" width="28" height="28" alt=""><br><b>SkyCast</b></a><br><br>
-      Installable weather and air-quality PWA on Open-Meteo: vanilla JavaScript, offline caching, and Node and Python tests.<br><br>
+      Installable weather and air-quality PWA on Open-Meteo: vanilla JavaScript, offline caching, and Node and Python tests.<br>
+      22 curated European presets, a 12-hour outlook, and a seven-day forecast.<br><br>
       <a href="https://parbproject.github.io/skycast/">Live demo</a>
       &nbsp;·&nbsp;
       <code>JavaScript</code> <code>PWA</code>
     </td>
   </tr>
 </table>
+
+<p align="center">
+  <a href="https://github.com/ParBproject/commodity-price-forecaster"><img src="https://raw.githubusercontent.com/ParBproject/ParBproject.github.io/main/assets/cpf_02_forecast.png" alt="Commodity price forecaster Streamlit forecast view" width="32%"></a>
+  <a href="https://github.com/ParBproject/commodity-price-forecaster"><img src="https://raw.githubusercontent.com/ParBproject/ParBproject.github.io/main/assets/cpf_05_risk_dashboard.png" alt="Commodity price forecaster Streamlit producer-risk dashboard" width="32%"></a>
+  <a href="https://github.com/ParBproject/Portfolio-Optimizer"><img src="https://raw.githubusercontent.com/ParBproject/Portfolio-Optimizer/main/screenshots/05_streamlit_app.png" alt="Portfolio optimizer Streamlit app" width="32%"></a>
+</p>
 
 ## More repositories
 
@@ -85,4 +97,4 @@
 
 ## Contact
 
-[githubproproject@proton.me](mailto:githubproproject@proton.me)
+[githubproproject@proton.me](mailto:githubproproject@proton.me) · [LinkedIn](https://www.linkedin.com/in/parbahrae/)
