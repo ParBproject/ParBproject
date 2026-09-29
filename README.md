@@ -17,6 +17,16 @@
 
 <p align="center">Open to data analyst, quant, forecasting or software roles · Toronto</p>
 
+## About me
+
+- 🔭 **I’m currently working on** Python projects for financial analysis: a commodity price forecaster, portfolio optimization tools, and credit-risk models. My focus is on reproducible analysis, meaningful benchmarks, and clear explanations of results.
+- 🌱 **I’m currently learning** advanced time-series methods, walk-forward validation, portfolio risk management, and explainable machine learning for credit-risk assessment.
+- 👯 **I’m looking to collaborate on** time-series forecasting, quantitative research, and interactive data dashboards that turn complex datasets into practical insights.
+- 🤔 **I’m looking for help with** strengthening model validation, preventing data leakage, and incorporating realistic assumptions into financial backtests. I welcome thoughtful code reviews and feedback from experienced practitioners.
+- 💬 **Ask me about** evaluating forecasts against naïve baselines, exploring portfolio allocation trade-offs, and building Streamlit dashboards to communicate analytical results.
+- 📫 **How to reach me:** [githubproproject@proton.me](mailto:githubproproject@proton.me) or [LinkedIn](https://www.linkedin.com/in/parbahrae/).
+- ⚡ **Fun fact:** I also tutor mathematics and science, and breaking down complex ideas is a skill I bring to both teaching and data analysis.
+
 ## Featured projects
 
 <table>
