@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  Software developer building practical tools in Python, C/C++, SQL, and AI.<br>
+  Software developer building practical tools in Python, SQL, and AI.<br>
   Time-series forecasts, portfolio and credit-risk models, and dashboards that explain the results.<br>
   Forecasts and portfolio models are checked against naïve baselines or simple benchmarks. Featured repositories run in GitHub Actions.
 </p>
@@ -72,11 +72,11 @@
 
 <p align="center">
   <img alt="Python" src="https://img.shields.io/badge/Python-10B981?style=flat-square&logo=python&logoColor=white&labelColor=111827">
-  <img alt="C and C++" src="https://img.shields.io/badge/C%2FC%2B%2B-10B981?style=flat-square&logo=cplusplus&logoColor=white&labelColor=111827">
   <img alt="SQL" src="https://img.shields.io/badge/SQL-10B981?style=flat-square&labelColor=111827">
   <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-10B981?style=flat-square&logo=streamlit&logoColor=white&labelColor=111827">
   <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-10B981?style=flat-square&logo=scikitlearn&logoColor=white&labelColor=111827">
   <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-10B981?style=flat-square&logo=tensorflow&logoColor=white&labelColor=111827">
+  <br>
   <img alt="Plotly" src="https://img.shields.io/badge/Plotly-10B981?style=flat-square&logo=plotly&logoColor=white&labelColor=111827">
   <img alt="DuckDB" src="https://img.shields.io/badge/DuckDB-10B981?style=flat-square&logo=duckdb&logoColor=white&labelColor=111827">
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-10B981?style=flat-square&logo=githubactions&logoColor=white&labelColor=111827">
