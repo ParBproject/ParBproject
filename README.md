@@ -68,30 +68,38 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/ParBproject/Advanced-Financial-Models"><img src="assets/icons/models.svg" width="28" height="28" alt=""><br><b>Advanced Financial Models</b></a><br><br>
-      Excel workbook plus a tested Python package for cash-flow forecasts, credit expected loss, portfolio risk and stress tests.<br>
-      Regression tests pin a credit example: $100,000 × 15% PD × 45% LGD = $6,750 expected loss.<br><br>
-      <code>Python</code> <code>Excel</code> <code>Streamlit</code>
+      <a href="https://github.com/ParBproject/vol-forecast-ml"><img src="assets/icons/series.svg" width="28" height="28" alt=""><br><b>Volatility Forecasting (HAR vs ML)</b></a><br><br>
+      Walk-forward next-day realized-volatility forecasts for SPY and nine sector ETFs: HAR-RV and GARCH vs gradient boosting and an LSTM, with Diebold-Mariano tests.<br>
+      The LSTM has the lowest QLIKE on 10 of 10 ETFs (0.2968 vs 0.3262 for HAR), but no model beats HAR on MSE.<br><br>
+      <a href="https://parbproject.github.io/vol-forecast-ml/">Live demo</a>
+      &nbsp;·&nbsp;
+      <code>Python</code> <code>PyTorch</code> <code>React</code>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/ParBproject/stock-price-predictor"><img src="assets/icons/series.svg" width="28" height="28" alt=""><br><b>Stock Price Predictor</b></a><br><br>
-      Next-day stock forecasts with LSTM and Random Forest, leakage-safe evaluation and Backtrader backtests.<br>
-      Benchmarked against a naïve persistence baseline.<br><br>
-      <code>Python</code> <code>TensorFlow</code> <code>Backtrader</code>
+      <a href="https://github.com/ParBproject/portfolio-risk-lab"><img src="assets/icons/portfolio.svg" width="28" height="28" alt=""><br><b>Portfolio Risk Lab</b></a><br><br>
+      Mean-variance, risk parity and Black-Litterman on 21 ETFs, tested walk-forward with costs, plus VaR/CVaR and factor attribution.<br>
+      Out of sample (2012-05 to 2026-09) no optimizer beat SPY (Sharpe 0.92); risk parity cut max drawdown to -12.72% vs -23.93%.<br><br>
+      <a href="https://parbproject.github.io/portfolio-risk-lab/">Live demo</a>
+      &nbsp;·&nbsp;
+      <code>Python</code> <code>NumPy</code> <code>React</code>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/ParBproject/Portfolio-Optimizer"><img src="assets/icons/portfolio.svg" width="28" height="28" alt=""><br><b>Portfolio Optimizer</b></a><br><br>
-      Markowitz mean-variance optimizer in CVXPY: efficient frontier, max-Sharpe and min-variance portfolios, an equal-weight backtest and a Streamlit UI.<br>
-      <br><br>
-      <code>Python</code> <code>CVXPY</code> <code>Streamlit</code>
+      <a href="https://github.com/ParBproject/options-vol-surface"><img src="assets/icons/models.svg" width="28" height="28" alt=""><br><b>SPY Volatility Surface</b></a><br><br>
+      Implied-volatility surface from a real SPY option chain: Black-Scholes-Merton inversion, raw SVI fits per expiry, butterfly and calendar arbitrage checks.<br>
+      1,077 OTM quotes across 11 expiries; SVI errors 0.22 to 0.67 vol points, and all 11 slices are butterfly-arbitrage-free.<br><br>
+      <a href="https://parbproject.github.io/options-vol-surface/">Live demo</a>
+      &nbsp;·&nbsp;
+      <code>Python</code> <code>SciPy</code> <code>React</code>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/ParBproject/AI-Investment-Dashboard"><img src="assets/icons/dashboard.svg" width="28" height="28" alt=""><br><b>AI Investment Dashboard</b></a><br><br>
-      Streamlit dashboard for an efficient frontier, Monte Carlo paths, Black–Scholes option pricing and what-if scenarios.<br>
-      <br><br>
-      <code>Python</code> <code>Plotly</code> <code>Streamlit</code>
+      <a href="https://github.com/ParBproject/portfolio-risk-performance-analyzer"><img src="assets/icons/dashboard.svg" width="28" height="28" alt=""><br><b>Portfolio Risk &amp; Performance Analyzer</b></a><br><br>
+      Equal-weight and minimum-variance ETF portfolios vs SPY, 2006 to 2026: SQLite + SQL analysis layer, risk metrics, stress periods, Streamlit dashboard.<br>
+      Equal weight cut volatility from 19.20% to 11.11% and max drawdown from -55.2% to -32.2%, at a similar Sharpe (0.52 vs 0.55).<br><br>
+      <a href="https://parbproject.github.io/portfolio-risk-performance-analyzer/">Live demo</a>
+      &nbsp;·&nbsp;
+      <code>Python</code> <code>SQL</code> <code>Streamlit</code>
     </td>
   </tr>
 </table>
@@ -104,14 +112,14 @@
 
 ## More repositories
 
-- **[SkyCast](https://github.com/ParBproject/skycast)** — Installable weather and air-quality PWA on Open-Meteo: vanilla JavaScript, offline caching, Node and Python tests. [Live demo](https://parbproject.github.io/skycast/)
 - **[Stroke](https://github.com/ParBproject/Stroke)** — Holdout study of the Kaggle stroke dataset: logistic regression versus tree models, calibration, and threshold choice. [Live casebook](https://parbproject.github.io/Stroke/)
 - **[Generative AI Data](https://github.com/ParBproject/Generative-AI-Data)** — Browser demos for in-browser transformer sentiment, fraud exploration, a churn what-if, and data storytelling. [Live demos](https://parbproject.github.io/Generative-AI-Data/)
 - **[Order fulfillment](https://github.com/ParBproject/E-commerce-Order-Fulfillment-Process-Improvement)** — Warehouse fulfillment case study on synthetic data: DuckDB SQL marts, window functions, and a before/after KPI board.
 - **[Credit-risk case study](https://github.com/ParBproject/Portfolio-Risk-Analysis-Credit-Risk-Modeling)** — Written analysis of a synthetic 1,000-loan portfolio: default probability, stress tests, and a risk report.
 - **[Stock screener and backtester](https://github.com/ParBproject/-Stock-Screener-Strategy-Backtester-Insider-Institutional-Signal-Tracker-)** — Streamlit equity research app for fundamental and technical screening, strategy backtests, and insider and institutional data.
 - **[Algorithmic trading research](https://github.com/ParBproject/algo-trading-consultant)** — Framework to backtest, optimize, and paper-trade systematic strategies such as mean reversion, momentum, and pairs.
-- **[Crypto trading research](https://github.com/ParBproject/Crypto-Trading-Bot)** — Research bot with an LSTM price model, backtests, risk controls, and paper-trading execution.
+
+<sub><b>Archived:</b> [Portfolio Optimizer](https://github.com/ParBproject/Portfolio-Optimizer) · [Advanced Financial Models](https://github.com/ParBproject/Advanced-Financial-Models) · [Stock Price Predictor](https://github.com/ParBproject/stock-price-predictor) · [AI Investment Dashboard](https://github.com/ParBproject/AI-Investment-Dashboard) · [Crypto Trading Bot](https://github.com/ParBproject/Crypto-Trading-Bot) · [SkyCast](https://github.com/ParBproject/skycast) · [denly-uptime](https://github.com/ParBproject/denly-uptime) · [Cosmic Clock](https://github.com/ParBproject/-A-Real-Time-Astronomical-Cosmological-Timepiece-)</sub>
 
 ## Stack
 
