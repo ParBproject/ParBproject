@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 520" width="1280" height="520" role="img" aria-labelledby="title desc">
-  <title id="title">Par Bahrae — Forecasting and quant tools, benchmarked and tested</title>
-  <desc id="desc">Software developer profile banner. Python projects in time-series forecasting, portfolio and credit-risk modeling, and dashboards that explain the results.</desc>
+  <title id="title">Par Bahrae — forecasting, valuation, and portfolio risk</title>
+  <desc id="desc">Profile banner on a dark green background with an emerald accent and a small forecast chart.</desc>
   <defs>
     <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
       <path d="M48 0 H0 V48" fill="none" stroke="#15382C" stroke-width="1" opacity="0.55"/>
